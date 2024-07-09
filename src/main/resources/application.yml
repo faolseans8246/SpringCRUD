@@ -1,0 +1,16 @@
+server:
+  port: 7172
+
+spring:
+  application:
+    name: CRUDGeneral
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_connect
+    username: root
+    password: faolseans8246
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
